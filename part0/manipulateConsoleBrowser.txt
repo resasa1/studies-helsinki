@@ -1,0 +1,15 @@
+//it's easy to manipulate browser using console
+
+//first you should do
+
+list = document.getElementsByTagName('ul')[0]
+
+//and then, next
+
+newElement = document.createElement('li')
+newElement.getContent = "I'm manipulate browser from console"
+
+list.appendChild(newElement)
+
+//worked on https://studies.cs.helsinki.fi/exampleapp/
+
